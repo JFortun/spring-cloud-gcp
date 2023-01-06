@@ -14,6 +14,23 @@ refer to the [commit
 history](https://github.com/GoogleCloudPlatform/spring-cloud-gcp/commits/main)
 on GitHub.
 
+## [3.5.0](https://github.com/GoogleCloudPlatform/spring-cloud-gcp/compare/v3.4.1...v3.5.0) (2023-01-06)
+
+
+### Features
+
+* adapt to new library_list.txt ([#1424](https://github.com/GoogleCloudPlatform/spring-cloud-gcp/issues/1424)) ([fd36d12](https://github.com/GoogleCloudPlatform/spring-cloud-gcp/commit/fd36d12f139a3639ee21c07607aac4255581c6d6))
+* add helper class and util for RetrySettings configuration ([#1392](https://github.com/GoogleCloudPlatform/spring-cloud-gcp/issues/1392)) ([c636695](https://github.com/GoogleCloudPlatform/spring-cloud-gcp/commit/c636695390223fecd659fab600fabd4f3e746e13))
+* use googleapis commitish ([#1425](https://github.com/GoogleCloudPlatform/spring-cloud-gcp/issues/1425)) ([cb9e04e](https://github.com/GoogleCloudPlatform/spring-cloud-gcp/commit/cb9e04e262e1a0422229b6e0835e0eb4cfb8bf72))
+
+
+### Bug Fixes
+
+* **codegen:** update dependency string replacement ([#1420](https://github.com/GoogleCloudPlatform/spring-cloud-gcp/issues/1420)) ([b0a541f](https://github.com/GoogleCloudPlatform/spring-cloud-gcp/commit/b0a541f254b98a0a1f54e78415c3e2d4bbf347dc))
+* remove unnecessary `$version` variable in `generate-*.sh` ([#1430](https://github.com/GoogleCloudPlatform/spring-cloud-gcp/issues/1430)) ([09d297a](https://github.com/GoogleCloudPlatform/spring-cloud-gcp/commit/09d297a310fbc1fee925667b65516936085c6efd))
+* update script pattern for replacing bazel arguments ([#1382](https://github.com/GoogleCloudPlatform/spring-cloud-gcp/issues/1382)) ([fad4e37](https://github.com/GoogleCloudPlatform/spring-cloud-gcp/commit/fad4e3792ec4c0dd785756717058a991dad487f9))
+* use `rule_prefix` instead of `client_lib_name` in `generate-one.sh` ([#1427](https://github.com/GoogleCloudPlatform/spring-cloud-gcp/issues/1427)) ([12bc934](https://github.com/GoogleCloudPlatform/spring-cloud-gcp/commit/12bc9344a340a07b51e81fa62b372f2ac34ae136))
+
 ## 3.5.0-SNAPSHOT
 
 ## 3.4.0
